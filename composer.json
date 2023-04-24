@@ -1,0 +1,24 @@
+{
+    "name": "alam/logger",
+    "description": "Multiple logging methods.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Logger\\": "src/"
+        },
+        "files": [
+            "helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alam",
+            "email": "alam_worker@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php-amqplib/php-amqplib": "^3.5"
+    }
+}
